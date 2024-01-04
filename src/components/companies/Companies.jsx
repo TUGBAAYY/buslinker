@@ -1,5 +1,5 @@
 import React from 'react'
-import './compaines.css'
+import './companies.css'
 import image from '../../media/linker.svg'
 import img1 from '../../media/metro.png'
 import img2 from '../../media/ulusoy.png'
