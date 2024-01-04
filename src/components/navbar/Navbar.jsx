@@ -1,7 +1,6 @@
 import React from 'react'
 import './navbar.css'
-import { AiFillCloseCircle } from 'react-icons/ai'
-import { TbGridDots } from 'react-icons/tb'
+
 import { useState } from 'react'
 import logo from '../../media/logo.svg'
 import bayrak from '../../media/flag.svg'
@@ -45,11 +44,9 @@ const Navbar = () => {
                                 <li className='register'>Register</li>
                             </ul>
                             <div onClick={removeNavbar} className="closeNavbar">
-                                <AiFillCloseCircle className="icon" />
                             </div>
                         </div>
                         <div onClick={showNav} className="toggleNavbar">
-                            <TbGridDots className="icon" />
                         </div>
 
                     </header>
