@@ -51,6 +51,7 @@ const Companies = () => {
             <img className='img-fluid'  src={img4} style={{width:"100px"}} alt="img4" />
             <img className='img-fluid'  src={img5} style={{width:"100px"}} alt="img5" />
             <img className='img-fluid'  src={img6} style={{width:"100px"}} alt="img6" />
+            <img className='img-fluid'  src={img6} style={{width:"100px"}} alt="img6" />
            
             </Carousel>
         </div>
