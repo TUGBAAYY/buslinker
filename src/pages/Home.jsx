@@ -9,6 +9,8 @@ import Navbar from '../components/navbar/Navbar'
 import Card from '../components/cards/Card'
 import Footer from '../components/footer/Footer'
 
+import 'react-multi-carousel/lib/styles.css';
+
 
 const Home = () => {
   return (

@@ -1,5 +1,6 @@
 import './App.css';
 import Bilet from './pages/Bilet'; 
+import 'react-multi-carousel/lib/styles.css';
 
 import {Routes, Route, Link} from 'react-router-dom'
 import Home from './pages/Home';
