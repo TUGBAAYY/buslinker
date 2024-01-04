@@ -1,4 +1,5 @@
 import React from 'react'
+import './companies.css'
 import image from '../../media/linker.svg'
 import img1 from '../../media/metro.png'
 import img2 from '../../media/ulusoy.png'
@@ -6,8 +7,6 @@ import img3 from '../../media/nilufer.png'
 import img4 from '../../media/pamukkale.png'
 import img5 from '../../media/varan.png'
 import img6 from '../../media/efetur.png'
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 
 
 const responsive = {
