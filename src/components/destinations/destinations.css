@@ -1,0 +1,109 @@
+.stylesHeader{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.styleContainer{
+    background-image: url(../../media/worldmap.png);
+    align-items: center;
+    background-blend-mode: darken;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    height: auto;
+    justify-content: center;
+    padding-top: 32px;
+    width: 100%;
+}
+
+.stylesGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* İstediğiniz boşluk değerini ayarlayın */
+  }
+  
+  .stylesDestination {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* İstediğiniz boşluk değerini ayarlayın */
+  }
+  
+  .stylesDestination > div {
+    flex: 1 1 calc(25% - 16px); /* 4 sütunlu ve boşluklu düzen */
+    text-align: center; /* İçerikleri ortalamak için */
+  }
+  
+  .stylesDestination img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .stylesDestination{
+    height: 100%;
+    object-fit: cover;
+    transition: all .2s ease-in-out;
+    width: 100%;
+  }
+  
+  .stylesDestination .destinationCard {
+    position: relative;
+    
+  }
+  
+  .stylesDestination .imageContainer {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .stylesDestination .destinationCard:hover .imageContainer {
+    transform: scale(1.05);
+    width: 100%;
+   
+  }
+  
+  .stylesDestination .imageContainer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  .styleContainer {
+    max-width: 96%; /* İstediğiniz maksimum genişliği belirleyin */
+    margin: 0 auto; /* Merkezlemek için */
+    padding: 16px; /* İstediğiniz kenar boşluğunu belirleyin */
+  }
+  .styleContainer{
+    color: #283350 !important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+  }
+ 
+
+  @media screen and (max-width: 1100px) {
+    .stylesDestination > div {
+      flex: 1 1 calc(33.333% - 16px); /* 3 sütunlu ve boşluklu düzen */
+    }
+  }
+  @media screen and (max-width: 730px) {
+    .stylesDestination > div {
+      flex: 1 1 calc(50% - 30px); /* 3 sütunlu ve boşluklu düzen */
+    }
+  }
+  @media screen and (max-width: 465px) {
+    .stylesDestination > div {
+      flex: 1 1 calc(75% - 30px); /* 3 sütunlu ve boşluklu düzen */
+    }
+  }
+  
+  

@@ -19,10 +19,10 @@ const Navbar = () => {
     }
     return (
         <div className='sectionbg'>
-            <div className="container">
+            <div className="containerr">
                 <section className='navBarSection'>
                     <header className="header flex">
-                        <div className="logoDiv">
+                        <div className="logoDiv ">
                             <a href="#" className="logo flex">
                                 <img src={logo} alt="" />
                             </a>
@@ -30,11 +30,11 @@ const Navbar = () => {
 
 
                         <div className={active}>
-                            <ul className="navLists flex text-white">
+                            <ul className="navLists flex text-white mt-3">
                                 <div className='bayrakBorder'>
 
                                     <img src={bayrak} alt="" />
-                                    <h1>USD</h1>
+                                    <h1 className='mt-1'>USD</h1>
                                 </div>
                                 <li className='d-flex'>
                                     Help

@@ -1,7 +1,6 @@
 
 
 .option {
-  margin: 10px;
   text-align: center;
   cursor: pointer;
 }
@@ -14,12 +13,11 @@
 .option p {
   margin: 0;
   color: #304c5f;
-  gap: 8px !important;
   margin-left: 1rem;
 flex-direction: row;
   width: 100%;
   color: #304c5f;
-    font-size: 24px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
@@ -30,8 +28,8 @@ flex-direction: row;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: 10px;
-  padding-right: 10px;  
+  padding-left: 20px;
+  padding-right: 20px;  
 }
 
 .active-img {
@@ -55,9 +53,46 @@ img svg{
 }
 
 .optionCont{
-  width: 100%;
+  /* width: 100%; */
   justify-content: center !important;
   margin-top: .8rem;
   height: 60px !important;
   padding: 1rem !important;
 }
+
+
+
+
+@media screen and (max-width: 650px) {
+  .option {
+    width: 100%; 
+    padding: 0;
+  }
+  .optionCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .option p{
+    margin-left: 0;
+    padding: 0;
+  }
+  
+  .option {
+    
+    margin: 0px;
+    text-align: center;
+    cursor: pointer;
+    width: calc(50% - 20px); 
+  }
+}
+@media screen and (max-width: 420px) {
+  .option {
+    
+    margin: 0px;
+    text-align: center;
+    cursor: pointer;
+    width: calc(100% - 20px); 
+    box-sizing: border-box;
+  }
+ }

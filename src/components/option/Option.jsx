@@ -32,6 +32,7 @@ const Option = () => {
         <p className={activeOption === 'ferry' ? 'active-text' : ''}>Feribot</p>
       </div>
       </div>
+      
     </div>
   );
 };

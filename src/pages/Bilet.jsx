@@ -5,7 +5,7 @@ const Bilet = () => {
     
     <div>
         
-        Bilet</div>
+        </div>
   )
 }
 

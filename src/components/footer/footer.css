@@ -1,0 +1,308 @@
+.styleFooter .styleContent .styleLeft .styleLogo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+}
+.styleFooter .styleContent .styleLeft{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100%;
+    justify-content: center;
+    min-width: 240px;
+    width: auto;
+}
+.styleStore{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
+    justify-content: center;
+    padding: 30px 38px;
+    width: 100%;
+}
+
+.styleDiv{
+    border: 1px solid #c2cac8;
+    height: 0;
+    width: 149px;
+}
+
+.styleAddress{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.styleİtems{
+    grid-column-gap: 100px;
+    grid-row-gap: 0;
+    -webkit-column-gap: 100px;
+    column-gap: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+    height: 100%;
+    row-gap: 0;
+    width: 100%;
+}
+
+.styleList{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    justify-content: flex-start;
+    min-width: 165px;
+    width: 100%;
+}
+
+.styleFooter{
+    grid-row-gap: 24px;
+    align-items: center;
+    background: #fafafa;
+    display: grid;
+    grid-template-areas:
+        "content"
+        "payment"
+        "bottom";
+    grid-template-rows: auto 56px;
+    justify-items: center;
+    row-gap: 24px;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.styleContent{
+    grid-column-gap: 56px;
+    grid-row-gap: 24px;
+    -webkit-column-gap: 56px;
+    column-gap: 56px;
+    display: grid;
+    grid-area: content;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 48px 0;
+    row-gap: 24px;
+    width: 100%;
+}
+
+.styleFooter a {
+    color: #304c5f !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.styleFooter h3{
+    color: #304c5f;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.styleFooter a:hover{
+    color: red !important;
+}
+
+.styleRight{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.styleSubscribe{
+    gap: 17px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+h1{
+    color: #283350 !important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.styleInput{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: flex-start;
+    width: 100%;
+}
+.styleInput input{
+    background: #e8e8e8;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    color: rgba(60,60,60,.5);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    height: inherit;
+    line-height: 30px;
+    outline: none;
+    padding-left: 22px;
+    width: 280px;
+    font: inherit;
+}
+.styleSubscribe p{
+    color: #283350;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+.styleInput input::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.submit{
+    align-items: center;
+    background: #304c5f;
+    border: 1px solid #fff;
+    border-left-width: 0;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    justify-content: center;
+    width: 60px;
+}
+
+.styleSocials{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    height: auto;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.stylesIcon{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    height: 100%;
+    width: 100%;
+}
+
+.stylePayment {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    grid-area: payment;
+    height: 100%;
+    justify-content: center;
+    max-width: 50vw;
+}
+.stylePayment img{
+    width: 40px !important;
+}
+
+.style_bottom{
+    align-items: center;
+    background-color: #293241;
+    display: flex;
+    flex-direction: row;
+    grid-area: bottom;
+    height: 40px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.style_bottom h3{
+    color: white;
+    font-size: 15px;
+    font-style: initial;
+    font-style: italic;
+    font-weight: 0;
+    line-height: 0;
+    line-height: 0;
+}
+
+
+  
+  @media screen and (max-width: 1300px) {
+    .styleFooter .styleContent > div {
+      flex: 1 1 calc(33.333% - 16px); /* 3 sütunlu ve boşluklu düzen */
+    }
+    .styleLeft{
+       margin-right: 10%;
+    }
+    .styleFooter .styleContent {
+        display: flex;
+        flex-wrap: wrap;
+    
+      }
+      .styleInput{
+        justify-content: center;
+        align-items: center;
+        
+        width: 80%;
+      }
+      .stylesIcon{
+        justify-content: center;
+        align-items: center;
+      }
+      .styleİtems{
+        display: block;
+        width: 100%;
+        justify-content: center !important;
+        align-items: center;
+        text-align: center !important;
+      }
+      .styleİtems .styleList{
+        margin-top: 3rem;
+      }
+      .styleİtems .styleList h3,a{
+        justify-content: center !important;
+        width: 100%;
+        margin: 0;
+
+      }
+      
+
+  }
+  
+  @media screen and (max-width: 730px) {
+    .styleFooter .styleContent > div {
+      flex: 1 1 calc(50% - 30px); /* 2 sütunlu ve boşluklu düzen */
+    }
+  }
+  
+  @media screen and (max-width: 465px) {
+    .styleFooter .styleContent > div {
+      flex: 1 1 calc(100% - 20px); /* Tek sütunlu ve boşluklu düzen */
+    }
+  }
+  
+

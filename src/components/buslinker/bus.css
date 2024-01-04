@@ -1,0 +1,33 @@
+.busBg{
+    background-image: url(../../media/bysbgg.png) ;
+    background-size: 100% 100%;
+}
+
+.styleBusContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .busImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .busText {
+    padding: 20px;
+  }
+  
+
+@media screen and (max-width: 1050px) {
+   .styleBusContainer{
+    display: block;
+    width: 100%;
+   }
+   .styleBusContainer p{
+    font-size: 15px;
+    margin-top: 0 !important;
+    text-align: start;
+   }
+   
+   
+ }
