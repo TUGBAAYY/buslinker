@@ -228,7 +228,7 @@ h1{
     width: 40px !important;
 }
 
-.style_bottom{
+/* .style_bottom{
     align-items: center;
     background-color: #293241;
     display: flex;
@@ -247,7 +247,7 @@ h1{
     font-weight: 0;
     line-height: 0;
     line-height: 0;
-}
+} */
 
 
   
@@ -256,7 +256,7 @@ h1{
       flex: 1 1 calc(33.333% - 16px); /* 3 sütunlu ve boşluklu düzen */
     }
     .styleLeft{
-       margin-right: 10%;
+       margin-right: 100%;
     }
     .styleFooter .styleContent {
         display: flex;
@@ -264,9 +264,9 @@ h1{
     
       }
       .styleInput{
-        justify-content: center;
-        align-items: center;
-        
+        justify-content: start !important;
+        align-items: start !important;
+        display: flex;
         width: 80%;
       }
       .stylesIcon{
@@ -283,12 +283,12 @@ h1{
       .styleİtems .styleList{
         margin-top: 3rem;
       }
-      .styleİtems .styleList h3,a{
-        justify-content: center !important;
-        width: 100%;
-        margin: 0;
-
+       .styleList h3, a{
+        margin-left: 3rem;
       }
+
+     
+      
       
 
   }
@@ -299,10 +299,6 @@ h1{
     }
   }
   
-  @media screen and (max-width: 465px) {
-    .styleFooter .styleContent > div {
-      flex: 1 1 calc(100% - 20px); /* Tek sütunlu ve boşluklu düzen */
-    }
-  }
+ 
 
   

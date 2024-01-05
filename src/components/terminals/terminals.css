@@ -12,8 +12,8 @@
     height: auto;
     
     padding: 42px 56px;
-    width: 73%; /* Sayfanın genişliğine göre ayarlayabilirsiniz */
-    margin: auto; /* Sayfayı ortalamak için */
+    width: 73%; 
+    margin: auto; 
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -44,17 +44,50 @@
     height: 100%;
 }
 
-@media screen and (max-width: 980px) {
-    .terminalcontaine{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);  
-    }
- }
-@media screen and (max-width: 650px) {
-    .terminalcontaine{
+@media screen and (max-width: 1300px) {
+    .terminalcontaine {
+        grid-column-gap: 83px;
+        grid-row-gap: 30px;
+        background: rgba(140, 169, 187, 0.05);
+        border: 2px solid #eee9e9;
+        border-radius: 10px;
+        box-shadow: 0 4px 40px rgba(0, 0, 0, .1);
+        column-gap: 83px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);  
+        grid-template-rows: repeat(2, 1fr);
+        height: auto;
+        
+        padding: 42px 56px;
+        width: 73%; 
+        margin: auto; 
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .terminalCity a {
+        display: flex;
+    }
+ }
+@media screen and (max-width: 740px) {
+    .terminalcontaine {
+        grid-column-gap: 83px;
+        grid-row-gap: 30px;
+        background: rgba(140, 169, 187, 0.05);
+        border: 2px solid #eee9e9;
+        border-radius: 10px;
+        box-shadow: 0 4px 40px rgba(0, 0, 0, .1);
+        column-gap: 83px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: auto;
+        
+        padding: 42px 56px;
+        width: 50%; 
+        margin: auto; 
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
  }
