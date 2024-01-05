@@ -224,6 +224,31 @@ input {
         align-items: center;
         width: 100%;
     }
+    .bookingBtn button{
+        border: none;
+        background: none;
+        color: #fff;
+        font-family:sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        justify-content: center;
+      }
+      .bookingBtn{
+        align-items: start;
+        background-color: #d23b38;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        height: 61px;
+        justify-content: center ;
+        width: 202px;
+        padding: .3rem;
+    
+      }
+      
 
     .textBoxContainer {
         flex-direction: column;

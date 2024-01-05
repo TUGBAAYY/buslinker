@@ -1,6 +1,7 @@
 import React from 'react'
 import './navbar.css'
-
+import { AiFillCloseCircle } from 'react-icons/ai'
+import { FaBars } from "react-icons/fa";
 import { useState } from 'react'
 import logo from '../../media/logo.svg'
 import bayrak from '../../media/flag.svg'
@@ -44,9 +45,11 @@ const Navbar = () => {
                                 <li className='register'>Register</li>
                             </ul>
                             <div onClick={removeNavbar} className="closeNavbar">
+                                <AiFillCloseCircle className="icon" />
                             </div>
                         </div>
                         <div onClick={showNav} className="toggleNavbar">
+                            <FaBars className="icon" />
                         </div>
 
                     </header>

@@ -59,15 +59,16 @@
         height: auto;
         
         padding: 42px 56px;
-        width: 73%; 
+        width: 60% !important; 
         margin: auto; 
         align-items: center;
         justify-content: center;
         text-align: center;
     }
-    .terminalCity a {
-        display: flex;
-    }
+
+   
+
+   
  }
 @media screen and (max-width: 740px) {
     .terminalcontaine {
@@ -84,7 +85,7 @@
         height: auto;
         
         padding: 42px 56px;
-        width: 50%; 
+        width: 100%; 
         margin: auto; 
         align-items: center;
         justify-content: center;
