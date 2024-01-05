@@ -48,46 +48,46 @@ const Footer = () => {
                 </div>
                 <div className="styleİtems">
                     <div className="styleList">
-                        <h3>Bus Companies</h3>
-                        <a href="/metro-turizm">Metro Turizm</a>
-                        <a href="/kamil-koç">Kamil Koç</a>
-                        <a href="/ulusoy">Ulusoy</a>
-                        <a href="/nilüfer-turizm">Nilüfer</a>
+                        <h3 className='logoMargin'>Bus Companies</h3>
+                        <a className='logoMargin' href="/metro-turizm">Metro Turizm</a>
+                        <a className='logoMargin' href="/kamil-koç">Kamil Koç</a>
+                        <a className='logoMargin' href="/ulusoy">Ulusoy</a>
+                        <a className='logoMargin' href="/nilüfer-turizm">Nilüfer</a>
                     </div>
                     <div className="styleList">
-                    <h3>Popular Travels</h3>
-                        <a href="/istanbul-ankara">İstanbul-Ankara</a>
-                        <a href="/istanbul-izmir">İstanbul-İzmir</a>
-                        <a href="/istanbul-antalya">İstanbul-Antalya</a>
-                        <a href="/istanbul-bursa">İstanbul-Bursa</a>
+                    <h3 className='logoMargin'>Popular Travels</h3>
+                        <a className='logoMargin' href="/istanbul-ankara">İstanbul-Ankara</a>
+                        <a className='logoMargin' href="/istanbul-izmir">İstanbul-İzmir</a>
+                        <a className='logoMargin' href="/istanbul-antalya">İstanbul-Antalya</a>
+                        <a className='logoMargin' href="/istanbul-bursa">İstanbul-Bursa</a>
                     </div>
                     <div className="styleList">
-                    <h3>All Terminals</h3>
-                        <a href="/istanbul">İstanbul</a>
-                        <a href="/ankara">Ankara</a>
-                        <a href="/izmir">İzmir</a>
-                        <a href="/antalya">Antalya</a>
+                    <h3 className='logoMargin'>All Terminals</h3>
+                        <a className='logoMargin' href="/istanbul">İstanbul</a>
+                        <a className='logoMargin' href="/ankara">Ankara</a>
+                        <a className='logoMargin' href="/izmir">İzmir</a>
+                        <a className='logoMargin' href="/antalya">Antalya</a>
                     </div>
                     <div className="styleList">
-                    <h3>Flight Tickets</h3>
-                        <a href="/turkish-airlines">Turkish Airlines</a>
-                        <a href="/pegasus">Pegasus</a>
-                        <a href="/anadolu-jet">Anadolu Jet</a>
-                        <a href="/onur-air">Onur Air</a>
+                    <h3 className='logoMargin'>Flight Tickets</h3>
+                        <a className='logoMargin' href="/turkish-airlines">Turkish Airlines</a>
+                        <a className='logoMargin' href="/pegasus">Pegasus</a>
+                        <a className='logoMargin' href="/anadolu-jet">Anadolu Jet</a>
+                        <a className='logoMargin' href="/onur-air">Onur Air</a>
                     </div>
                     <div className="styleList">
-                    <h3>About Us</h3>
-                        <a href="/blog">Blog</a>
-                        <a href="/basında-biz">Basında Biz</a>
-                        <a href="/kvkk">KVKK</a>
-                        <a href="/reklam">Reklam</a>
+                    <h3 className='logoMargin'>About Us</h3>
+                        <a className='logoMargin' href="/blog">Blog</a>
+                        <a className='logoMargin' href="/basında-biz">Basında Biz</a>
+                        <a className='logoMargin' href="/kvkk">KVKK</a>
+                        <a className='logoMargin' href="/reklam">Reklam</a>
                     </div>
                     <div className="styleList">
-                    <h3>Bus Ticket</h3>
-                        <a href="/travels">Travels</a>
-                        <a href="/bus-companies">Bus Companies</a>
-                        <a href="/check-ticket">Check Ticket</a>
-                        <a href="/popular-travels">Popular Travels</a>
+                    <h3 className='logoMargin'>Bus Ticket</h3>
+                        <a className='logoMargin' href="/travels">Travels</a>
+                        <a className='logoMargin' href="/bus-companies">Bus Companies</a>
+                        <a className='logoMargin' href="/check-ticket">Check Ticket</a>
+                        <a className='logoMargin' href="/popular-travels">Popular Travels</a>
                     </div>
                 </div>
                 <div className="styleRight">

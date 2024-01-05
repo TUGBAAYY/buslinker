@@ -255,6 +255,9 @@ h1{
     .styleFooter .styleContent > div {
       flex: 1 1 calc(33.333% - 16px); /* 3 sütunlu ve boşluklu düzen */
     }
+    .styleFooter{
+        margin-top: 50%;
+    }
     .styleLeft{
        margin-right: 100%;
     }
@@ -283,10 +286,10 @@ h1{
       .styleİtems .styleList{
         margin-top: 3rem;
       }
-       .styleList h3, a{
+    .logoMargin{
         margin-left: 3rem;
-      }
-
+    }
+    
      
       
       

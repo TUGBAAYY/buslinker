@@ -150,9 +150,14 @@ a{
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
     transition: 0.3s ease-in-out;
   }
+  
+  .logoDiv img{
+    margin-right: 1rem !important;
+  }
   .bayrakBorder, .register{
     display: none;
   }
+  
   
    .navLists {
     flex-direction: column;

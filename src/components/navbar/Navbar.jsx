@@ -23,7 +23,7 @@ const Navbar = () => {
                 <section className='navBarSection'>
                     <header className="header flex">
                         <div className="logoDiv ">
-                            <a href="#" className="logo flex">
+                            <a href="#" className="logoFlex">
                                 <img src={logo} alt="" />
                             </a>
                         </div>
