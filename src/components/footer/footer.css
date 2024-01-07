@@ -70,7 +70,6 @@
 .styleFooter{
     grid-row-gap: 24px;
     align-items: center;
-    background: #fafafa;
     display: grid;
     grid-template-areas:
         "content"
@@ -255,11 +254,8 @@ h1{
     column-gap: 24px;
     grid-template-columns: repeat(2,auto);
     grid-template-rows: repeat(6,auto);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    
     width: 100%;
-    margin-left: 1.3rem;
     
     }
     .styleFooter{
