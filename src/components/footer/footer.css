@@ -163,7 +163,7 @@ h1{
     line-height: 30px;
     outline: none;
     padding-left: 22px;
-    width: 280px;
+    width: 230px;
     font: inherit;
 }
 .styleSubscribe p{
@@ -179,7 +179,6 @@ h1{
 .styleInput input::placeholder{
     font-size: 20px;
     font-weight: 400;
-    font-style: normal;
 }
 
 
@@ -250,58 +249,72 @@ h1{
 } */
 
 
-  
-  @media screen and (max-width: 1300px) {
-    .styleFooter .styleContent > div {
-      flex: 1 1 calc(33.333% - 16px); /* 3 sütunlu ve boşluklu düzen */
+@media screen and (max-width: 660px) {
+    .styleİtems{
+        -webkit-column-gap: 24px;
+    column-gap: 24px;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(6,auto);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-left: 1.3rem;
+    
     }
     .styleFooter{
-        margin-top: 50%;
+        width: 65%;
     }
-    .styleLeft{
-       margin-right: 100%;
+   
+
+    .styleContent{
+        grid-template-columns: 1fr;
+        width: auto;
+        padding: 0;
+        margin: 0%;
     }
-    .styleFooter .styleContent {
-        display: flex;
-        flex-wrap: wrap;
-    
-      }
-      .styleInput{
-        justify-content: start !important;
-        align-items: start !important;
-        display: flex;
-        width: 80%;
-      }
-      .stylesIcon{
+    .styleRight .styleInput{
         justify-content: center;
-        align-items: center;
-      }
-      .styleİtems{
-        display: block;
-        width: 100%;
+    }
+    .styleRight .stylesIcon{
+        justify-content: center;
+    }
+    
+ }
+
+ @media screen and (min-width: 660px) {
+    .styleİtems{
+    column-gap: 24px;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(6,auto);
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100%;
+    
+    }
+
+    .styleİtems h3,a{
         justify-content: center !important;
         align-items: center;
-        text-align: center !important;
-      }
-      .styleİtems .styleList{
-        margin-top: 3rem;
-      }
-    .logoMargin{
-        margin-left: 3rem;
+        text-align: center;
+        width: auto;
     }
-    
-     
-      
-      
+    .styleContent{
+        grid-template-columns: 1fr;
+        width: auto;
+        padding: 0;
+        margin: 0%;
+    }
 
-  }
-  
-  @media screen and (max-width: 730px) {
-    .styleFooter .styleContent > div {
-      flex: 1 1 calc(50% - 30px); /* 2 sütunlu ve boşluklu düzen */
+    .styleRight .styleInput{
+        justify-content: center;
     }
-  }
-  
+    .styleRight .stylesIcon{
+        justify-content: center;
+    }
+
+ }
  
 
   
