@@ -248,7 +248,7 @@ h1{
 } */
 
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 1300px) {
     .styleİtems{
         -webkit-column-gap: 24px;
     column-gap: 24px;
@@ -262,6 +262,9 @@ h1{
         width: 65%;
     }
    
+    .styleİtems .styleList h3,a {
+        margin-left: 1rem;
+    }
 
     .styleContent{
         grid-template-columns: 1fr;
@@ -278,39 +281,7 @@ h1{
     
  }
 
- @media screen and (min-width: 660px) {
-    .styleİtems{
-    column-gap: 24px;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows: repeat(6,auto);
-    justify-content: center !important;
-    align-items: center !important;
-    text-align: center !important;
-    width: 100%;
-    
-    }
 
-    .styleİtems h3,a{
-        justify-content: center !important;
-        align-items: center;
-        text-align: center;
-        width: auto;
-    }
-    .styleContent{
-        grid-template-columns: 1fr;
-        width: auto;
-        padding: 0;
-        margin: 0%;
-    }
-
-    .styleRight .styleInput{
-        justify-content: center;
-    }
-    .styleRight .stylesIcon{
-        justify-content: center;
-    }
-
- }
  
 
   

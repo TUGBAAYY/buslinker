@@ -1,0 +1,160 @@
+.styleContainerStyles {
+    align-items: center;
+    background: rgba(242,245,247,.7);
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex !important;
+    flex-direction: row;
+    gap: 24px;
+    height: auto;
+    justify-content: center;
+    padding: 17px;
+    position: relative;
+    width: 100%;
+}
+.style_Input{
+    background: #fff;
+    border: 2px solid #eee9e9;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    box-sizing: border-box;
+    height: 60px;
+    outline: none!important;
+    position: relative;
+    width: 288px;
+}
+
+.style_Input input{
+    border: none!important;
+    border-radius: 10px;
+    color: #304c5f;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    height: 100%;
+    line-height: 30px;
+    outline: none!important;
+    padding: 15px 15px 1px 55px;
+    width: 80%;
+}
+.styleIcon{
+    height: 24px;
+    left: 20px;
+    position: absolute;
+    top: 70%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 24px;
+   
+}
+
+.style_swapp{
+    height: 32px;
+    width: 32px;
+  
+}
+
+
+
+.stylesButtonContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    height: auto;
+    justify-content: center;
+    width: auto;
+}
+.styleSelecetButton{
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    height: 50px;
+    justify-content: center;
+    min-width: 130px;
+    -webkit-user-select: none;
+    user-select: none;
+    width: auto;
+}
+
+
+.stylesButtonContainer .styleSelecetButton img {
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+     
+   
+  }
+  .stylesButtonContainer .styleSelecetButton{
+    border: 2px solid #c8daea;
+    padding: 8px 8px;
+    margin-top: 1rem;
+  }
+  
+  .stylesButtonContainer .styleSelecetButton:hover img {
+    opacity: 1 !important; 
+    
+  }
+
+  .stylesButtonContainer .styleSelecetButton:hover{
+    border-color: #d23b38;
+  }
+
+  .stylesButtonContainer .styleSelecetButton h3{
+    color: #304c5f;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .styleContainerStyles {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .style_Input {
+        width: 100%; /* Set the width to 100% for smaller screens */
+      
+    }
+
+    .style_Input input {
+        width: 100%; /* Set the width to 100% for smaller screens */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    box-sizing: border-box;
+
+    }
+    .styleContainerStyles .styleIcon{
+        position: relative;
+        top: -1.5rem;
+    }
+    .styles_swapp{
+        z-index: 1;
+        position: absolute;
+        top: 36%;
+        right: 0;
+        right: .7rem;
+        transform: translate(0, -55%) rotate(90deg); /* Çevirme işlemi burada ekleniyor */
+        box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* transform ve box-shadow için geçiş efekti ekleniyor */
+        border-radius: 50%;
+        padding: .8rem;
+        background-color: white;
+    }
+
+    .styles_swapp:hover{
+        box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.5);
+        
+            transform: matrix3d(1, 0, 0, 0,   
+                                0, 1, 0, 0,   
+                                0, 0, 1, 0,   
+                                0, 0, 0, 1); 
+        
+            
+    }
+    
+}

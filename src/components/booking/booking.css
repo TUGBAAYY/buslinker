@@ -218,11 +218,26 @@ input {
   .bookingBtn img{
     margin-right: 10px;
   }
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 990px) {
     .topSection {
         flex-direction: column;
         align-items: center;
         width: 100%;
+    }
+
+   
+    
+    .bookingBg .bookingSection{
+        padding-bottom: 5rem;
+        padding-top: 3rem;
+       
+    }
+    .textBoxContainer{
+        margin-top: .7rem;
+    }
+    
+    .lastTextBoxContainer{
+       margin-top: .8rem;
     }
     .bookingBtn button{
         border: none;
@@ -278,16 +293,18 @@ input {
         position: absolute;
         top: 90%;
         right: 0;
-        transform: translate(0, -50%);
-        box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3); /* Büyük ve yuvarlak box shadow */
-        transition: box-shadow 0.3s ease;
-        border-radius: 50%; /* Yuvarlak kenarlığı sağlamak için */
+        transform: translate(0, -55%) rotate(90deg); /* Çevirme işlemi burada ekleniyor */
+        box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* transform ve box-shadow için geçiş efekti ekleniyor */
+        border-radius: 50%;
         padding: .8rem;
     }
+    
     .img2:hover {
         box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.5);
-        transform: translate(0, -55%); /* Hover durumunda yukarı doğru bir miktar oynama ekleniyor */
+        transform: translate(0, -55%) rotate(90deg); /* Hover durumunda çevirme işlemi ekleniyor */
     }
+    
 
     .bottomSection {
         display: block;
@@ -298,6 +315,10 @@ input {
         width: 100%;
         margin-top: .3rem;
     }
+   
+
+
+
 }
 
 @media screen and (max-width: 420px) {
