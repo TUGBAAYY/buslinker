@@ -1,0 +1,381 @@
+/* acord.css */
+
+/* Bu stil, active durumundayken rotate efekti ekler */
+.accordion.actives .title .styleRight img {
+    transform: rotate(180deg);
+}
+
+/* Diğer stil tanımlamalarınız */
+.accordion {
+    align-items: center;
+    cursor: pointer;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+    max-width: 270px;
+    min-height: 24px;
+    width: 100%;
+    border-bottom: 2px solid #f7f7f7;
+    margin-top: 1rem;
+}
+.styleLeft{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: flex-start;
+}
+
+.styleRightt {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    bottom: 2.3rem;
+    position: relative;
+}
+
+.styless_Containerr{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: auto;
+    justify-content: flex-start;
+    max-width: 966px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.styleContanier_{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.styleContanier_:first-child{
+    margin-bottom: -24px;
+}
+
+.stylesHeadingg{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stylesoncekigun{
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #d23b38;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    height: 43px;
+    justify-content: center;
+    width: 140px;
+}
+
+
+.stylesoncekigun_text{
+    color: #d23b38;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.totalTravels span {
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.totalTravels h1{
+    color: #383838;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.nextDay{
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #d23b38;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    height: 43px;
+    justify-content: center;
+    width: 140px;
+}
+
+.styleTextt{
+    color: #d23b38;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.stylesSort{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stylesLeftt{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: flex-start;
+}
+
+.stylesRightt{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: flex-start;
+    width: auto;
+    margin-top: .9rem;
+}
+
+.stylesRightt_sol{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: flex-start;
+    width: auto;
+}
+
+.switchContainer{
+    align-items: center;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    height: 26px;
+    justify-content: flex-start;
+    padding: 3px;
+    width: 52px;
+    background: #505b6b;
+}
+
+.stylesButtonn{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    height: 20px;
+    position: relative;
+    transition: left .3s ease-in-out;
+    width: 20px;    -webkit-animation:  .3s ease-in-out;
+    animation:  .3s ease-in-out;
+    left: 0;
+}
+
+.stylesLabel{
+    color: #29374c;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.stylesTravelsContent{
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.2);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    min-height: 200px;
+    position: relative;
+    width: 100%;
+}
+
+.styles_Logo{
+    height: 105px;
+    left: 40px;
+    position: absolute;
+    top: 30px;
+    width: 114px;
+}
+
+.stylesMid{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 85px;
+    margin-top: 60px;
+    text-align: center;
+    width: auto;
+}
+
+.hour{
+    color: #283350;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.stylesMid .location{
+    color: #293241;
+    font-size: 20px;
+    letter-spacing: -.32px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.styles_hour{
+    color: #889091;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.stylesLine{
+    border: 0.1rem solid #c8daea;
+    border-radius: 10px;
+    height: 0;
+    width: 112px;
+}
+
+.stylesLeft__Bottomm{
+    align-items: center;
+    bottom: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    height: auto;
+    justify-content: flex-start;
+    left: 24px;
+    position: absolute;
+    width: auto;
+}
+
+.styles_Optionn{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    height: auto;
+    justify-content: flex-start;
+    width: auto;
+}
+
+.stylesText{
+    color: #283350;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.styles__Rightt{
+    align-items: flex-end !important;
+    bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    height: auto;
+    position: absolute;
+    right: 24px;
+    width: auto;
+}
+
+.styles__price{
+    align-items: center;
+    background: rgba(200,218,234,.2);
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.1);
+    display: flex;
+    flex-direction: row;
+    height: 52px;
+    justify-content: center;
+    width: 104px;
+}
+
+.button_Sec{
+    align-items: center;
+    background: #d23b38;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    justify-content: center;
+    width: 160px;
+    border: #d23b38;
+}
+.button_Sec h1{
+    color: white !important;
+}
+
+
+.mid__Bottom{
+    align-items: center;
+    bottom: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: auto;
+    justify-content: flex-start;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: auto;
+}
+
+.divContainerContent{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 65px;
+    margin-top: 20px;
+}
+
+.styleLeft h1{
+    margin-right: 3rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .acordion_cont{
+        display: none;
+    }
+    .styleLeft h1{
+        margin-right: 0 !important; 
+    }
+ }
+
+ @media screen and (max-width: 950px) {
+    .stylesLeft__Bottomm{
+        display: none;
+    }
+    .styles_Logo img{
+        width: 50px;
+    }
+    .mid__Bottom{
+        right: 100%;
+        left: 0;
+    }
+ }
